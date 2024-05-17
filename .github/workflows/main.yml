@@ -37,7 +37,7 @@ jobs:
         run: |
           git config --global user.name "geraldsayson909"
           git config --global user.email "geraldsayson909@gmail.com"
-          git pull
+          git pull --force
           git add .
           # Force the build to succeed, even if no files were changed
           git commit -m 'Update generated files' || true
