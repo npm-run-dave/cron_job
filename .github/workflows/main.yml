@@ -35,7 +35,7 @@ jobs:
       # Commit all changed files to the repository
       - name: Commit to the repo
         run: |
-          git config --global user.name "geraldsayson909"
+          git config --global user.name "geraldsayson909/green-auto-commit"
           git config --global user.email "geraldsayson909@gmail.com"
           git pull --force
           git add .
