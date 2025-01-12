@@ -35,8 +35,8 @@ jobs:
       # Commit all changed files to the repository
       - name: Commit to the repo
         run: |
-          git config --global user.name "Kurt-Leopard/cron_job"
-          git config --global user.email "markangeloujamandre@gmail.com"
+          git config --global user.name "Dave23x1/cron_job"
+          git config --global user.email "ryandavedonos@gmail.com"
           git pull --force
           git add .
           # Force the build to succeed, even if no files were changed
