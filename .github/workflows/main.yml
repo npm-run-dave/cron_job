@@ -2,7 +2,7 @@ name: Generate Stats Images
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   schedule:
     - cron: "0 8,14,20 * * *"
   workflow_dispatch:
