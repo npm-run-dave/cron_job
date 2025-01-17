@@ -35,9 +35,8 @@ jobs:
       # Commit all changed files to the repository
       - name: Commit to the repo
         run: |
-          git config --global user.name "Dave23x1/cron_job"
+          git config --global user.name "Dave23x1"
           git config --global user.email "ryandavedonos@gmail.com"
-          git pull origin main
           git add .
           # Force the build to succeed, even if no files were changed
           git commit -m 'Update generated files' || true
